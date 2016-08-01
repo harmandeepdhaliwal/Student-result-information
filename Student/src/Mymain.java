@@ -15,7 +15,7 @@ public class Mymain {
 		Scanner input = new Scanner(System.in);
 		int num = 0;
 
-		System.out.println("Student Information System");
+		System.out.println("Student result information");
 		System.out.println("Enter Student ID");
 		num = input.nextInt();
 
