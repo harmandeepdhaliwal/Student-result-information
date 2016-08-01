@@ -12,7 +12,13 @@ public class Mymain {
 		Student s5 = new Student("Manpreet", 105, "C++", 85);
 		Student s6 = new Student("Jasmeen", 106, "Software development", 72);
 		Student s7 = new Student("Gajal", 107, "DBMS", 60);
+
 		Student s8 = new Student("Kajal", 108, "Networking", 30);
+
+		
+		
+		
+
 		Scanner input = new Scanner(System.in);
 		int num = 0;
 
@@ -63,6 +69,7 @@ public class Mymain {
 			System.out.println("Course Name: " + s7.getCourseName());
 			System.out.println("Student Marks : " + s7.getStudentMarks());
 		} 
+		
 		
 		else if (num == s8.getStudentID()) {
 			System.out.println("Student Name: " + s8.getStudentName());
