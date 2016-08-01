@@ -7,7 +7,7 @@ public class Mymain {
 		// create an object of Student
 		Student s1 = new Student("Harman", 101, "System engineering", 80);
 		Student s2 = new Student("Rajan", 102, "Java programming language", 70);
-		Student s3 = new Student("Kanwal", 103, "Information technology", 65);
+		Student s3 = new Student("Kanwaldeep", 103, "Information technology", 65);
 		Student s4 = new Student("Rahul", 104, "System engineering", 55);
 		Student s5 = new Student("Manpreet", 105, "C++", 85);
 		Student s6 = new Student("Jasmeen", 106, "Software development", 72);
