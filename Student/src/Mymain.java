@@ -11,6 +11,7 @@ public class Mymain {
 		Student s4 = new Student("Rahul", 104, "System engineering", 55);
 		Student s5 = new Student("Manpreet", 105, "C++", 85);
 		Student s6 = new Student("Jasmeen", 106, "Software development", 72);
+		Student s7 = new Student("Gajal", 107, "DBMS", 60);
 
 		Scanner input = new Scanner(System.in);
 		int num = 0;
@@ -50,10 +51,17 @@ public class Mymain {
 			System.out.println("Student Marks : " + s5.getStudentMarks());
 		} 
 		
+
 		else if (num == s6.getStudentID()) {
 			System.out.println("Student Name: " + s6.getStudentName());
 			System.out.println("Course Name: " + s6.getCourseName());
 			System.out.println("Student Marks : " + s6.getStudentMarks());
+		} 
+		
+		else if (num == s7.getStudentID()) {
+			System.out.println("Student Name: " + s7.getStudentName());
+			System.out.println("Course Name: " + s7.getCourseName());
+			System.out.println("Student Marks : " + s7.getStudentMarks());
 		} 
 		
 		else 
